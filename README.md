@@ -9,6 +9,8 @@ Based on the construction of trees, this framework combines branches in various 
   The first algorithm selects each branch separately, while the second algorithm takes all branches that reduce the target content by a sufficient amount from a single tree and produces the best combination of them.
     
   For combining the obtained branches, 2 algorithms are presented:
+  
     - random search, for each of the transmitted branches it calculates random combinations, provided that the specified rules on the target content are met
+    
     - greedy search, for each of the transmitted branches the greedy algorithm goes through the remaining branches, thus selecting the best combination at the moment.
       (All algorithms are described in more detail in the notebook itself)
