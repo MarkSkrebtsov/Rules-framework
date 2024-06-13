@@ -16,4 +16,4 @@
   2) greedy search, for each of the transmitted branches the greedy algorithm goes 
         through the remaining branches, thus selecting the best combination at the moment.
 
-(All algorithms are described in more detail in the notebook itself)
+(All algorithms are described in more detail in the py-file itself)
